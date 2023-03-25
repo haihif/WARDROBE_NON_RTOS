@@ -29,7 +29,7 @@
   Update the code with your Blynk authentication token, OpenWeather API key, and Chat GPT API key.
   Flash the code onto the ESP32 Dev Kit v1.
   Run the Blynk app on your mobile device, scan the QR code provided by Blynk, and connect to your project.
-##Usage
+## Usage
   To use the Smart Wardrobe device, simply open the Blynk app and navigate to your project. The temperature and humidity levels inside your wardrobe will be displayed in real-time on the chart widget. The current weather conditions and the response for the question "What should I wear today?" will be displayed in the Blynk terminal widget.
 
 ## Conclusion
