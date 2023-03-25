@@ -42,12 +42,5 @@
   The device could be made more accurate by including more sensors, such as a light sensor, to detect the lighting conditions inside the wardrobe.
 ## License
   The Smart Wardrobe project is released under the MIT License. See LICENSE for more information.
-
-## Acknowledgments
-  BME280 Library
-  HTTP Client Library
-  Chat GPT API
-  Blynk Library
-  OpenWeather API
 ## Contact
   If you have any questions or suggestions about the Smart Wardrobe project, please contact us at haihif2002@gmail.com.
