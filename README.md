@@ -8,11 +8,11 @@
 ## Dependencies
   The following libraries are required to run the project:
 
-    ESP IDF
-    BME280 Library
-    HTTP Client Library
-    Chat GPT API
-    Blynk Library
+  ESP IDF
+  BME280 Library
+  HTTP Client Library
+  Chat GPT API
+  Blynk Library
 ## How it works
   The device collects temperature and humidity data from the BME280 sensor and sends it to the Blynk platform using the Blynk library. The data is displayed in a chart widget in real-time. The device also retrieves the current weather conditions by sending an HTTP request to OpenWeather API and displays the weather description in the Blynk terminal widget.
 
@@ -21,14 +21,14 @@
 ## Setup
   To set up the Smart Wardrobe device, follow these steps:
 
-    Clone the repository.
-    Install the ESP IDF and all necessary libraries.
-    Connect the ESP32 Dev Kit v1 and the BME280 sensor.
-    Set up a Blynk account and create a new project.
-    Get an API key from OpenWeather API and Chat GPT API.
-    Update the code with your Blynk authentication token, OpenWeather API key, and Chat GPT API key.
-    Flash the code onto the ESP32 Dev Kit v1.
-    Run the Blynk app on your mobile device, scan the QR code provided by Blynk, and connect to your project.
+  Clone the repository.
+  Install the ESP IDF and all necessary libraries.
+  Connect the ESP32 Dev Kit v1 and the BME280 sensor.
+  Set up a Blynk account and create a new project.
+  Get an API key from OpenWeather API and Chat GPT API.
+  Update the code with your Blynk authentication token, OpenWeather API key, and Chat GPT API key.
+  Flash the code onto the ESP32 Dev Kit v1.
+  Run the Blynk app on your mobile device, scan the QR code provided by Blynk, and connect to your project.
 ##Usage
   To use the Smart Wardrobe device, simply open the Blynk app and navigate to your project. The temperature and humidity levels inside your wardrobe will be displayed in real-time on the chart widget. The current weather conditions and the response for the question "What should I wear today?" will be displayed in the Blynk terminal widget.
 
