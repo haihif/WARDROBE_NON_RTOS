@@ -8,11 +8,11 @@
 ## Dependencies
   The following libraries are required to run the project:
 
-  ESP IDF
-  BME280 Library
-  HTTP Client Library
-  Chat GPT API
-  Blynk Library
+  - ESP IDF
+  - BME280 Library
+  - HTTP Client Library
+  - Openweather API
+  - Chat GPT API
 ## How it works
   The device collects temperature and humidity data from the BME280 sensor and sends it to the Blynk platform using the Blynk library. The data is displayed in a chart widget in real-time. The device also retrieves the current weather conditions by sending an HTTP request to OpenWeather API and displays the weather description in the Blynk terminal widget.
 
