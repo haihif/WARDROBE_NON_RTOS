@@ -613,13 +613,13 @@ void read_data_from_bme280()
 			}
 			else
 			{
-				ESP_LOGE(__func__, "measure error. code: %d", com_rslt);
+				ESP_LOGE(TAG, "measure error. code: %d", com_rslt);
 			}
 		
 	}
 	else
 	{
-		ESP_LOGE(__func__, "init or setting error. code: %d", com_rslt);
+		ESP_LOGE(TAG, "init or setting error. code: %d", com_rslt);
 	}
 }
 
