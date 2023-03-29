@@ -70,7 +70,6 @@ __attribute__((unused)) static const char *TAG = "Main";
 
 
 #define PERIOD_GET_DATA_FROM_SENSOR                 (5000 / portTICK_PERIOD_MS)
-#define PERIOD_SAVE_DATA_SENSOR_TO_SDCARD           (2500 / portTICK_PERIOD_MS)
 #define PERIOD_SAVE_DATA_AFTER_WIFI_RECONNECT       (10000 / portTICK_PERIOD_MS)
 
 #define SDA_PIN                                     CONFIG_SDA_PIN
