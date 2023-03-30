@@ -14,7 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 #include <sys/time.h>
 
 #include "sdkconfig.h"
@@ -35,6 +34,7 @@
 #include "esp_tls.h"
 #include "esp_ota_ops.h"
 #include <sys/param.h>
+#include "protocol_examples_common.h"
 
 #include "driver/adc.h"
 #include "driver/gpio.h"
@@ -50,7 +50,6 @@
 #include "freertos/queue.h"
 #include "freertos/ringbuf.h"
 #include "freertos/event_groups.h"
-#include "protocol_examples_common.h"
 
 #include "lwip/err.h"
 #include "lwip/sys.h"
@@ -60,17 +59,12 @@
 
 #include "bme280.h"
 
-
 #include <cJSON.h>
 
 
 /*------------------------------------ DEFINE ------------------------------------ */
 
-__attribute__((unused)) static const char *TAG = "Main";
-
-
-#define PERIOD_GET_DATA_FROM_SENSOR                 (5000 / portTICK_PERIOD_MS)
-#define PERIOD_SAVE_DATA_AFTER_WIFI_RECONNECT       (10000 / portTICK_PERIOD_MS)
+static const char *TAG = "SmartWardrobe";
 
 #define SDA_PIN                                     CONFIG_SDA_PIN
 #define SCL_PIN                                     CONFIG_SCL_PIN
