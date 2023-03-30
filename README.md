@@ -2,7 +2,7 @@
 ## Introduction
   The Smart Wardrobe is a device that helps you decide what to wear based on the weather outside and the conditions inside your wardrobe. It uses a BME280 sensor to detect temperature and humidity levels inside the wardrobe, retrieves the current weather conditions by sending an HTTP request to OpenWeather API, and uses Chat GPT API to provide a response for the question "What should I wear today?". The device communicates with the Blynk platform and displays the data on various widgets.
 
-## Hardware
+## Hardware and Software
   The device is built using ESP32 Dev Kit v1 and BME280 sensor. ESP IDF is used to program the device in C language.
 
 ## Dependencies
