@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @author Nguyen Huy Hai ( @20203898 ) 
+ * @author Nguyen Huy Hai 20203898 (hai.nh203898@sis.hust.edu.vn)
  * @brief Main file of Smart-Wardrobe project
  * @version 0.2
  * @date 2023-03-03
