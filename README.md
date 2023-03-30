@@ -6,7 +6,7 @@
   The device is built using ESP32 Dev Kit v1 and BME280 sensor. ESP IDF is used to program the device in C language.
 
 ## Dependencies
-  The following libraries are required to run the project:
+### The following libraries are required to run the project:
 
   - ESP IDF
   - BME280 Library
@@ -19,7 +19,7 @@
   To get the response for the question "What should I wear today?", the device sends a request to the Chat GPT API, which generates a response based on the weather conditions and the user's preferences. The response is then displayed in the Blynk terminal widget.
 
 ## Setup
-  To set up the Smart Wardrobe device, follow these steps:
+###  To set up the Smart Wardrobe device, follow these steps:
 
   - Clone the repository.
   - Install the ESP IDF and all necessary libraries.
@@ -42,8 +42,7 @@
 ## License
   The Smart Wardrobe project is released under the MIT License.
 ## Contact
-  If you have any questions or suggestions about the Smart Wardrobe project,
-  please contact us at haihif2002@gmail.com.
+### If you have any questions or suggestions about the Smart Wardrobe project, please contact us at haihif2002@gmail.com.
 <a href="https://github.com/haihif/WARDROBE_NON_RTOS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=haihif/WARDROBE_NON_RTOS" />
 </a>
