@@ -44,3 +44,4 @@
   The Smart Wardrobe project is released under the MIT License. See LICENSE for more information.
 ## Contact
   If you have any questions or suggestions about the Smart Wardrobe project, please contact us at haihif2002@gmail.com.
+  <img src="https://avatars.githubusercontent.com/u/52365009?s=96&v=4" />
