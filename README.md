@@ -35,13 +35,12 @@
 ## Conclusion
   The Smart Wardrobe is a useful device for anyone who wants to simplify their daily routine. By providing real-time temperature and humidity data and generating clothing recommendations based on the weather and user preferences, the device makes it easy to decide what to wear each day.
 ## Future Improvements
-  The device could be enhanced to include a camera that takes a picture of the clothes inside the wardrobe and uses computer vision to recommend outfits based on the user's preferences.
-  The device could be integrated with smart home systems to adjust the wardrobe's temperature and humidity levels automatically.
-  The device could be made more user-friendly by adding a touchscreen display that displays all the data and recommendations.
-  The device could be improved to allow users to input their preferences, such as their preferred clothing style, color, and fabric.
-  The device could be made more accurate by including more sensors, such as a light sensor, to detect the lighting conditions inside the wardrobe.
+  - The device could be enhanced to include a camera that takes a picture of the clothes inside the wardrobe and uses computer vision to recommend outfits based on the user's preferences.
+  - The device could be integrated with smart home systems to adjust the wardrobe's temperature and humidity levels automatically.
+  - The device could be improved to allow users to input their preferences, such as their preferred clothing style, color, and fabric.
+  - The device could be made more accurate by including more sensors, such as a light sensor, to detect the lighting conditions inside the wardrobe.
 ## License
-  The Smart Wardrobe project is released under the MIT License. See LICENSE for more information.
+  The Smart Wardrobe project is released under the MIT License.
 ## Contact
   If you have any questions or suggestions about the Smart Wardrobe project,
   please contact us at haihif2002@gmail.com.
